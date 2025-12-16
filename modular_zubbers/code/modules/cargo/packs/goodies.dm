@@ -180,3 +180,8 @@
 	cost = PAYCHECK_COMMAND
 	contains = list(/obj/item/mod/module/storage/large_capacity)
 
+/datum/supply_pack/goody/rapid_tiling_device
+	name = "Rapid Tiling Device (RTD) Single-Pack"
+	desc = "Used for fast placement & destruction of floor tiles."
+	cost = PAYCHECK_CREW * 10
+	contains = list(/obj/item/construction/rtd)

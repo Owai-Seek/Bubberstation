@@ -31,9 +31,8 @@
 		/obj/item/stack/sheet/cloth/ten = 5, // Curtains, Bedseets, Towels
 		/obj/item/stack/sheet/rglass = 20, // ~60 Credits
 		/obj/item/survivalcapsule/fan = 2, // ~200 from Imports
-		/obj/item/construction/rtd, // RLD is 500, maybe this should be similar?
 		/obj/item/storage/box/lights/mixed, // 200
 		/obj/item/toy/crayon/spraycan = 3,
 	)
-	cost = 3000
+	cost = CARGO_CRATE_VALUE * 11.25 // ~2250
 	crate_name = "construction kit crate"
